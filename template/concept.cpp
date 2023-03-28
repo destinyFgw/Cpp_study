@@ -1,6 +1,6 @@
 #include <complex>
 #include <type_traits>
-
+//Concept “概念”：对模板参数约束的直接描述
 template <typename ArgT>
 void foo(
     ArgT&& a, 
